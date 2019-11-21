@@ -76,7 +76,7 @@ bool send_data(KeyPair *key_vals, int N) {
 	Serial.println("   -> + Fetching the following data");
 
 	for ( int i = 0 ; i < N - 1 ; i++ ) {
-  	Serial.print("      | "); Serial.print(key_vals[i].key); Serial.print(" = "); Serial.print(key_vals[i].val); Serial.println("");
+  		Serial.print("      | "); Serial.print(key_vals[i].key); Serial.print(" = "); Serial.print(key_vals[i].val); Serial.println("");
     	url += key_vals[i].key + "=" + key_vals[i].val + "&";
 	}
 	Serial.print("      | "); Serial.print(key_vals[N-1].key); Serial.print(" = "); Serial.print(key_vals[N-1].val); Serial.println("");

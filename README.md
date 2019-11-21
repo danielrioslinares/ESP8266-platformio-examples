@@ -11,7 +11,10 @@ arduino
 - GDC_001 : Google Drive script access (Insecure mode, HTTPSRedirect)
 - OTA_000 : Over-The-Air Blinky
 
+arduino+ESP8266RiversLib
+- GDC_001 : Google Drive script access (Secure mode, HTTPSRedirect)
+
 esp8266-rtos-sdk
-- UART_000 : Basic UART functionality
 - GPIO_000 : Blinky with task parameters (structure)
 - GPIO_001 : Mimic a GPIO to other GPIO
+- UART_000 : Basic UART functionality

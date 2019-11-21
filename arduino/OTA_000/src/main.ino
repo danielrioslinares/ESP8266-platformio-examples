@@ -47,7 +47,7 @@ void setup() {
 
 	// DEBUG (header, body and footer)
 	ArduinoOTA.onStart([]() {
-		Serial.print("Firmware update started (via OTA)");
+		Serial.println("Firmware update started (via OTA)");
 	});
 	ArduinoOTA.onProgress([](unsigned int progress, unsigned int total) {
 		Serial.printf("   -> Progress: %u%%\r", (progress / (total / 100)));
