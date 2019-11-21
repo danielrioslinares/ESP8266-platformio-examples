@@ -4,10 +4,10 @@
 
 
 // Wi-Fi access
-WiFiStation_Parameter station = {"Livebox-64E3", "FVs4eP2K"}; // ADD YOUR ACTUAL SSID & PASSWORD
+WiFiStation_Parameter station = {"", ""}; // ADD YOUR ACTUAL SSID & PASSWORD
 
 // Google script handler
-GoogleScript google_script_client = GoogleScript("AKfycbz7iP3cAibGrDE1wnrOLAxVIsxtLqwYAPvGNY5w6ZGYRcU3E7Kq"); // ADD YOUR ACTUAL Google script ID
+GoogleScript google_script_client = GoogleScript(""); // ADD YOUR ACTUAL Google script ID
 
 // setup()
 //
